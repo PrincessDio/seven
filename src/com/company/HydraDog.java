@@ -16,4 +16,13 @@ public class HydraDog extends Dog{
     public void deleteTail() {
         tails += 3;
     }
+
+    @Override
+    public String toString() {
+        return "HydraDog{" +
+                "legs=" + legs +
+                ", tails=" + tails +
+                ", ears=" + ears +
+                '}';
+    }
 }
